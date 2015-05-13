@@ -19,7 +19,7 @@
         <style>
 			#carousel {
                 position:absolute;
-                top:0;
+                top:50px;
                 left:0;
                 height:500px;  
                 width:100%; 
@@ -37,6 +37,28 @@
             }
             .carryOnCarouselSlide.active {
                 display: block;
+            }
+            .jumbotron {
+                background-color: transparent;
+            }
+            .jumbotron h2 {
+                color: #eee;
+                font-size: 38px;
+                text-shadow: 1px 1px 1px rgba(0,0,0,0.6),0 0 50px rgba(0,0,0,0.8);
+                font-weight: bold;
+            }
+            .footer {
+                color: #eee;
+                font-size: 20px;
+                width:100%;
+                background-color: #212121;
+                background-color: rgba(33,33,33,0.8);
+                padding-top: 20px;
+                padding-bottom: 20px;
+            }
+            a, a:hover, a:visited, .footer a, .footer a:hover, .footer a:visited {
+                color: #F26C4F;
+                font-weight: bold;
             }
 		</style>
     </head>
@@ -63,20 +85,17 @@
 		<div id="carousel"  data-images='["img/white.jpg", "img/yellow.jpg", "img/amazing.jpg", "img/street.jpg", "img/door.jpg", "img/houses.jpg", "img/seaside.jpg", "img/window.jpg"]'>
 			
 		</div>
-    <div class="jumbotron" >
-        <div class="jumbotronimages">
-            
+        <div class="jumbotron" >
+            <div class="container">
+                <h2 class="text-center">Image Slider/Carousel</h2>
+                <h2 class="text-center">jQuery Plugin</h2>
+                <h2 class="text-center">No Configuration. No Options, No Controls</h2>			
+                <h2 class="text-center">Data attribute driven</h2>			
+            </div>
         </div>
-        <div class="container">
-            <h2 class="text-center">Image Slider/Carousel</h2>
-            <h3 class="text-center">jQuery Plugin</h3>
-            <h3 class="text-center">No Configuration. No Options, No Controls</h3>			
-            <h3 class="text-center">Data attribute driven</h3>			
+        <div class="footer text-center">
+            Follow <a href="http://twitter.com/intenseagile">@intenseagile</a> and visit the blog <a href="http://intenseagile.com">Intense Agile</a>
         </div>
-    </div>
-    <div class="footer">
-        Follow <a href="http://twitter.com/intenseagile">@intenseagile</a>. <a href="http://intenseagile.com">Intense Agile</a>
-    </div>
 
 
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.js"></script>
