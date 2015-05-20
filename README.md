@@ -15,11 +15,16 @@ Carousel's are a dime a dozen. Carousels also offer so many options that just se
 
 Carry on Carousel is designed to be a set and forget image carousel. There are no options. It runs at one speed, supports one transition and has only one way to define your images - through data-attributes.
 
+## Dependency
+
+jQuery
+
 # How To
 
 ## 1) Install
 
 * Download the .js file and put it in your ```/js``` directory.
+* Ensure you have jQuery referenced in your html page/template.
 * Reference the .js file in your html page/template.
 
 ## 2) Set up your carousel container
