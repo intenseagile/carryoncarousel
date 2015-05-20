@@ -59,6 +59,6 @@ Call the plugin on the jQuery load:
 
 # Example
 
-There's an example in the repo's ```example``` folder, complete with some minimal styling based on (Bootstrap)(http://getbootstrap.com).
+There's an example in the repo's ```example``` folder, complete with some minimal styling based on [Bootstrap](http://getbootstrap.com).
 
 jQuery plugin based image carousel/image slider. Data attribute driven.
