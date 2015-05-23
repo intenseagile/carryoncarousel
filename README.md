@@ -61,4 +61,7 @@ Call the plugin on the jQuery load:
 
 There's an example in the repo's ```example``` folder, complete with some minimal styling based on [Bootstrap](http://getbootstrap.com).
 
-jQuery plugin based image carousel/image slider. Data attribute driven.
+## Copyright and license
+
+Code released under [the MIT license](https://github.com/twbs/bootstrap/blob/master/LICENSE).
+Copyright (c) 2015, IntenseAgile
